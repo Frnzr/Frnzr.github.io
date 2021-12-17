@@ -1,0 +1,327 @@
+body{
+	background-color: #000;
+	color:#fff;
+	font-size:16px;
+	line-height:1.6em;
+	margin: 0;
+	font-family: 'Readex Pro', sans-serif;
+}
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+	font-family: 'Readex Pro', sans-serif;
+
+}
+#main-header{
+	background-color:#000;
+	color:#fff;
+}
+#navbar{
+	background-color:#000;
+	color:#fff;
+}
+#navbar ul{
+	padding: 0;
+	list-style:none;
+	float: right;
+	font-family: 'Readex Pro', sans-serif;
+}
+#navbar li{
+	display:inline;
+}
+#navbar a{
+	color:#fff;
+	text-decoration:none;
+	font-size:30px;
+	padding-right:15px;
+	margin: 20px;
+}
+#navbar a:hover{
+	color: #F2AA4CFF;
+}
+#showcase{
+	
+}
+.myname h1{
+	color:#F2AA4CFF;
+	font-size:50px;
+	margin-top: 150px;
+
+
+}
+
+
+#main-footer{
+	background:#F2AA4CFF;
+	color:#fff;
+	text-align:center;
+	padding:20px;
+
+}
+
+
+.container-1{
+	width: 100%;
+  margin-top: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: #F2AA4CFF;
+} 
+.container-1 > *{
+ flex: 0 1 20%;
+}
+
+.col-block{
+  background-color: #000;
+
+  color: black;
+  margin: 10px;
+  width: auto;
+  text-align: center;
+  padding: 20px;
+  min-width: 400px;
+}
+.col-block:hover{
+	background-color: #F2AA4CFF;
+}
+.block-title{
+	color: #fff;
+}
+.block-desc{
+	color: #fff;
+}
+.block-img{
+	width: auto;
+	height: 400px;
+}
+.line-1{
+	background-color: #F2AA4CFF;
+	height: 3px;
+	width: 50%;
+	float: left;
+
+}
+.line-2{
+	background-color: #F2AA4CFF;
+	float: right;
+	margin-right: 10%;
+	height: 3px;
+	width: 45%;
+
+}
+
+.head-work{
+	margin-top: 45%;
+}
+.wel-desc{
+	font-size: 20px;
+	text-align: justify;
+	margin-left: 11%;
+}
+.col-wel{
+ margin-bottom: 100px;
+
+
+}
+
+.container-2 > *{
+ flex: 1 1 50%;
+}
+.container-2{
+	margin-top: 1%;
+	width: 25%;
+	margin-left: 200px;
+	
+
+}
+.block-desc{
+	font-family: 'Readex Pro', sans-serif;
+
+}
+.myname{
+	font-size: 15px;
+	margin-bottom: 25px;
+	margin-left: 10%;
+
+
+}
+.about-desc{
+
+
+}
+.about-block{
+	margin-top: 40%;
+	display: flex;
+}
+.container-2 > *{
+ flex: 1 1 50%;
+}
+
+#about{
+ margin-top: 20%;
+ padding: 10px;
+}
+.about-info{
+  margin-bottom: 200px;
+  margin:0px 200px ;
+  padding:40px 100px;
+  justify-content: center;
+  align-items: center;
+  min-width: 400px;
+}
+.about-header{
+  font-family: 'Readex Pro', sans-serif;
+  color: #fff;
+  font-size: 19px;
+  margin: auto;
+  width: 0%;
+  margin-bottom: 100px;
+}
+.about-main{
+  font-family: 'Readex Pro', sans-serif;
+  color: #fff;
+  font-size: 16px;
+ display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.about-main > *{
+ flex: 0 1 45%;
+}
+.about-main-img{
+  height: 300px;
+  width: auto;
+  border-radius: 49%;
+}
+.col-about{
+  color: white;
+  margin: 10px;
+  width: auto;
+  text-align: center;
+  padding: 20px;
+  min-width: 300px;
+}
+
+.about-header{
+  margin-bottom: 16px;
+  font-size: 25px;
+}
+.about-desc{
+  font-size: 1.5em;
+  text-align: left;
+   text-align: justify;
+   text-justify: inter-word;
+}
+
+.work-header{
+  margin-top: -35%;
+  font-size: 25px;
+  margin-left: 47%;
+}
+
+#contact-me{
+	margin-top: 80%;
+	
+
+}
+
+.container-3 > *{
+ flex: 0 1 10%;
+}
+.container-3{
+	width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+
+}
+
+
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+
+}
+
+.fa-facebook:hover {
+    background: white;
+    color: #F2AA4CFF;
+    transition-duration: 0.3s;
+}
+
+.fa-envelope {
+    background: #3B5998;
+    color: white;
+
+}
+
+.fa-envelope:hover {
+    background: white;
+    color: #F2AA4CFF;
+    transition-duration: 0.3s;
+}
+.fa-envelope {
+  padding: 10px;
+  font-size: 30px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+
+}
+
+.contact-title{
+	font-size: 20px;
+}
+
+@media(max-width:600px){
+	#main-block{
+		display: flex;
+	}
+	#sidebar{
+		width:100%;
+		float:none;
+	}
+	#main-header{
+		width:100%;
+		float:none;
+	}
+	#showcase{
+		width:100%;
+		float:none;
+	}
+	#navbar{
+		width:100%;
+		float:none;
+	}
+	.card__image{
+		width:100%;
+		float:none;
+	}
+	.main-block{
+		display: flex;
+	}
+
+}
